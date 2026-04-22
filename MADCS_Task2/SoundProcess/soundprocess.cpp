@@ -6,7 +6,7 @@
 #include <QMediaPlayer>
 #include <QAudioProbe>
 
-#define MAX_AMP 1
+#define MAX_AMP 40000
 
 SoundProcess::SoundProcess(QWidget *parent): QMainWindow(parent), ui(new Ui::SoundProcess)
 {
